@@ -8,7 +8,7 @@ const rainbow = document.querySelector('.rainbow');
 const clear = document.querySelector('.clear');
 
 const clearGrid = (e) => {
-    buildingColor = backgroundInput.value;
+    buildingColor = 'transparent';
     const removeClass = Array.from(buttons).find(button => button.classList.contains('active'));
     if (removeClass) removeClass.classList.remove('active');
     e.target.classList.add('active');
