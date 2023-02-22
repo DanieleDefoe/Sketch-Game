@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Abuzar Mamedov">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src="./app.js" defer></script>
+</head>
+<body class="page">
+    <header class="header">
+        <h1 class="header__title">sketch</h1>
+    </header>
+    <main class="main">
+        <section class="options">
+            <label for="background" class="label">
+                <input type="color" class="background" name="background" id="background">
+                background
+            </label>
+            <label for="pen" class="label">
+                <input type="color" class="pen" name="pen" id="pen">
+                pen color
+            </label>
+            <button type="button" class="button eraser">eraser</button>
+            <button type="button" class="button rainbow">rainbow</button>
+            <button type="button" class="button clear">clear</button>
+            <label for="range" class="label range-label">
+                <input type="range" min="2" max="64" name="range" id="range" class="range">
+            </label>
+        </section>
+        <section class="block">
+            <div class="grid"></div>
+        </section>
+    </main>
+</body>
+</html>
